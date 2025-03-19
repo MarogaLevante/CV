@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margarita Fernández García - CV</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1 id="name">Margarita Fernández García</h1>
+        <p id="contact-info">
+            📍 Amán, Jordania | 📧 <a href="mailto:magisa1@gmail.com">magisa1@gmail.com</a> | 📞 +34 667387032 / +962 7 9200 2417
+        </p>
+        <div class="lang-switch">
+            <button onclick="changeLanguage('es')">🇪🇸 Español</button>
+            <button onclick="changeLanguage('en')">🇬🇧 English</button>
+            <button onclick="changeLanguage('ar')">🇸🇦 العربية</button>
+        </div>
+    </header>
+
+    <section id="about">
+        <h2 data-key="aboutTitle">Sobre mí</h2>
+        <p data-key="aboutText">
+            Experta en sistemas IT, educación y desarrollo de software. Con más de 15 años de experiencia 
+            en soporte técnico, integración de sistemas, enseñanza de idiomas y desarrollo de proyectos tecnológicos.  
+            Certificada en DELE, Cloud DevOps y diversas tecnologías de automatización y programación.
+        </p>
+    </section>
+
+    <section id="experience">
+        <h2 data-key="expTitle">Experiencia Profesional</h2>
+        
+        <div class="job">
+            <h3 data-key="exp1Title">Desarrolladora de Software Freelance</h3>
+            <p data-key="exp1Date">Septiembre 2023 – Presente</p>
+            <p data-key="exp1Desc">Desarrollo de software, consultoría IT y asesoramiento en proyectos de digitalización.</p>
+        </div>
+
+        <div class="job">
+            <h3 data-key="exp2Title">Profesora de Español - Instituto Cervantes, Amán</h3>
+            <p data-key="exp2Date">Octubre 2023 – Enero 2025</p>
+            <p data-key="exp2Desc">Impartición de clases de español, preparación de exámenes DELE y desarrollo de material didáctico.</p>
+        </div>
+
+        <div class="job">
+            <h3 data-key="exp3Title">Técnico Experto en Sistemas - Unitecnic de MediaPro (Madrid)</h3>
+            <p data-key="exp3Date">Octubre 2010 – Agosto 2023</p>
+            <p data-key="exp3Desc">Técnico experto en sistemas, proyectos y soporte orientado a sistemas IT en entornos de Broadcast para Atresmedia. Funciones de administración técnica, tester e integración en áreas de continuidad y emisiones, NOC, noticias, post-producción, estudios de TV, gestión de contenidos (MAM) y sistemas de iluminación.</p>
+        </div>
+
+        <div class="job">
+            <h3 data-key="exp4Title">Administrador Técnico Audiovisual - Antena3 (Madrid)</h3>
+            <p data-key="exp4Date">Enero 2007 – 2010</p>
+            <p data-key="exp4Desc">Gestión de sistemas de emisión, soporte IT y mantenimiento de equipos de broadcast.</p>
+        </div>
+
+        <div class="job">
+            <h3 data-key="exp5Title">Técnico de Mantenimiento - Vitelsa Group</h3>
+            <p data-key="exp5Date">Enero 2006 – Enero 2007</p>
+            <p data-key="exp5Desc">Administración de servidores, formación técnica y digitalización de procesos.</p>
+        </div>
+
+        <div class="job">
+            <h3 data-key="exp6Title">Soporte Técnico - Siemens Group</h3>
+            <p data-key="exp6Date">Octubre 2002 – Diciembre 2005</p>
+            <p data-key="exp6Desc">Mantenimiento de sistemas, gestión de incidencias y administración de redes.</p>
+        </div>
+
+        <div class="job">
+            <h3 data-key="exp7Title">Co-Tutora de TFG - Universidad de Las Palmas de Gran Canaria</h3>
+            <p data-key="exp7Date">Enero 2021 – Agosto 2022</p>
+            <p data-key="exp7Desc">Supervisión del proyecto de renovación del Laboratorio de Producción de TV.</p>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2 data-key="eduTitle">Educación</h2>
+        
+        <div class="edu">
+            <h3 data-key="edu1Title">Grado en Ingeniería Informática - UNIR</h3>
+            <p data-key="edu1Date">Septiembre 2024 – Presente</p>
+        </div>
+
+        <div class="edu">
+            <h3 data-key="edu2Title">Acreditación DELE A1-A2B1 E, A1-A2 - Instituto Cervantes</h3>
+            <p data-key="edu2Date">2023 – 2024</p>
+        </div>
+
+        <div class="edu">
+            <h3 data-key="edu3Title">Cloud DevOps & Automation Engineer</h3>
+            <p data-key="edu3Date">2022 – 2023</p>
+        </div>
+
+        <div class="edu">
+            <h3 data-key="edu4Title">Administrador de Sistemas de Información - FOC Centro de Formación Ocupacional</h3>
+            <p data-key="edu4Date">2009 – 2011</p>
+        </div>
+
+        <div class="edu">
+            <h3 data-key="edu5Title">Licenciatura en Ciencias Ambientales - Universidad Carlos III (No completado)</h3>
+            <p data-key="edu5Date">2002 – 2005</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2 data-key="skillsTitle">Habilidades</h2>
+        <ul>
+            <li data-key="skill1">Programación: Java, Python, C#, Kotlin, Swift</li>
+            <li data-key="skill2">Cloud: AWS, Azure, Docker, Kubernetes</li>
+            <li data-key="skill3">Automatización: Ansible, Jenkins, Puppet</li>
+            <li data-key="skill4">Gestión de proyectos IT</li>
+            <li data-key="skill5">Enseñanza de idiomas y preparación DELE</li>
+        </ul>
+    </section>
+
+    <section id="languages">
+        <h2 data-key="langTitle">Idiomas</h2>
+        <ul>
+            <li data-key="lang1">🇪🇸 Español (Nativo)</li>
+            <li data-key="lang2">🇬🇧 Inglés (B1) - Certificado CSLM, Universidad de Cádiz</li>
+            <li data-key="lang3">🇸🇦 Árabe (Básico)</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p data-key="contact">📧 Contacto: <a href="mailto:magisa1@gmail.com">magisa1@gmail.com</a></p>
+    </footer>
+</body>
+</html>
